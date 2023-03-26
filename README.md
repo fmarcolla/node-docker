@@ -6,3 +6,6 @@ docker build -t marcolla/dockernode .
 
 # Rodar Imagem
 docker run -p 3000:3000 -d marcolla/dockernode
+
+# Rodar Utilizando o docker compose
+docker-compose up
